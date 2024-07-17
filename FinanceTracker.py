@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 global net_savings
 
 class CSV:
-    CSV_FILE = "CHECKING_Transactions_2024-06-01_2024-06-30.csv" #class variable
+    CSV_FILE = "" #class variable/csv file name
     COLUMNS = ["Processed Date", "Amount", "Credit or Debit", "Description"]
     FORMAT = "%m/%d/%Y" #mm/dd/yyyy format
 
